@@ -1,0 +1,22 @@
+# Maven output and compiled Java files
+**/target/
+*.class
+
+# Large datasets and profiling output stay local
+/data/generated/*
+!/data/generated/.gitkeep
+*.jfr
+*.hprof
+hs_err_pid*
+*.log
+
+# Local editor, operating-system, and environment files
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
